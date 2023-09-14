@@ -41,8 +41,7 @@ header{
 main{
     height: calc(100vh - 70px);
     background-color: black;
-    background-image: url(img/eminem\ home.jpg);
-    background-size: cover;
+    ;background-size: cover;
     display: flex;
     justify-content:left
     
@@ -85,6 +84,14 @@ footer{
     transform: scale(1.2);
 }
 
+.call{
+    height: calc(100vh - 70px);
+    background-color: black;
+    background-image: url(img/eminem\ home.jpg);
+    background-size: cover;
+    justify-content:left
+}
+
 .biografia{
     height: calc(100vh - 70px);
     background-color: black;
@@ -100,6 +107,8 @@ footer{
     background-size: cover;
     justify-content:left
 }
+
+
 
 
 
