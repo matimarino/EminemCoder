@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color:  rgba(0, 0, 0, 0.966);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.bd{
+    overflow: hidden
+}
+
+
+@import "header";
+@import "footer";
+@import "shop";
+@import "home";
+@import "discografia";
+@import "biografia";
+@import "premios";
+
+@media screen and (max-width: 768px) {
+    
+    body {
+    overflow: auto; 
+    } 
+
+    *{
+        overflow: auto;
+    }
+}
+

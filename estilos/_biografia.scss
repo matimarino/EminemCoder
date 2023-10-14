@@ -1,0 +1,70 @@
+
+
+.fondo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.fondo figure {
+    background-image: url(../img/fondos/fondo-biografia.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; 
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction:column;
+    justify-content:first baseline;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.capa h2 {
+    font-size: 40px;
+}
+
+.capa p {
+    font-size: 25px;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.capa img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    .fondo figure{
+        background-image: url(../img/fondos/home\ mobile.jpg);
+    }
+    .capa{
+        padding: 20px;
+
+    }
+    .capa h2{
+        font-size: 30px;
+    }
+    .capa p{
+        font-size: 13px;
+        margin: 12px;
+    }
+}

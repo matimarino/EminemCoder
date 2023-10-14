@@ -1,0 +1,65 @@
+.fondo-home{
+    background-image: url(/img/fondos/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align:center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.content h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    padding: 1rem 2rem;
+    margin: 20px 0px;
+    text-align: center;
+    border-radius:25px ;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600px;
+    margin: 20px 0;
+}
+
+button:hover{
+    background: grey;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: black;
+}
+
+@media (max-width: 768px){
+    .content h1{
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    .fondo-home{
+        background-image: url(../img/fondos/home\ mobile.jpg);
+    }
+
+    button{
+        width: 80%;
+        max-width: 200px;
+        font-size: 1.2rem;
+    }
+}
